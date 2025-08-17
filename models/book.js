@@ -12,4 +12,4 @@ const BookSchema = new mongoose.Schema(
   }
 );
 
-export const BookModel = mongoose.Model("Book", BookSchema);
+export const bookModel = mongoose.model("Book", BookSchema);
