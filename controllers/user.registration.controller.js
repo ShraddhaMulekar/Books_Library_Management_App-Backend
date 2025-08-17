@@ -1,7 +1,7 @@
 import { userModel } from "../models/user.js";
 import bcrypt from "bcrypt";
 
-export const registration = async (req, res) => {
+export const registrationController = async (req, res) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
